@@ -1,5 +1,5 @@
 #include <stdio.h>
-int g_a, g_b, g_c; // Variables globales si utile (visibles par init() et main() ici
+int g_a = 0, g_b = 0, g_c = 0; // Variables globales si utile (visibles par init() et main() ici
 void init() {} // Fonction d'initialisation si besoin
 int main() {
   init(); // Appel fonction d'init
